@@ -2,7 +2,7 @@
 
 namespace project5.Database;
 
-public class StaticData
+public class StaticAnimals
 {
     public static List<Animal> animals = new List<Animal>()
     {
