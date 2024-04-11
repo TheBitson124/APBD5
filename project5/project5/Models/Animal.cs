@@ -8,4 +8,12 @@ public class Animal
     public int Mass { get; set; }
     public string FurColor { get; set; }
 
+    public Animal(int id, string firstName, string category, int mass, string furColor)
+    {
+        Id = id;
+        FirstName = firstName;
+        Category = category;
+        Mass = mass;
+        FurColor = furColor;
+    }
 }
